@@ -59,7 +59,7 @@ const SettingsModal: React.FC<SettingsModalProps> = ({
 				router.refresh()
 				onClose()
 			})
-			.catch(() => toast.error('Something went wrong!'))
+			.catch(() => toast.error('Что-то пошло не так!'))
 			.finally(() => setIsLoading(false))
 	}
 
